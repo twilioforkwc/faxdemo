@@ -1,0 +1,34 @@
+{
+  "name": "faxdemo",
+  "version": "1.0.0",
+  "description": "Simple demo showing how Twilio Programmable FAX works.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:twilioforkwc/faxdemo.git"
+  },
+  "keywords": [
+    "FAX",
+    "Twilio",
+    "NodeJS"
+  ],
+  "author": "KDDI Web Communications Inc.",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "connect-mongo": "^1.3.2",
+    "cookie-parser": "^1.4.3",
+    "crypto": "0.0.3",
+    "express": "^4.14.0",
+    "express-session": "^1.14.1",
+    "mongodb": "^2.2.11",
+    "mongoose": "^4.6.5",
+    "node-rest-client": "^3.1.0",
+    "nodemon": "^1.11.0",
+    "qs": "^6.3.0",
+    "request": "^2.76.0"
+  }
+}
